@@ -9,9 +9,14 @@ int getlength(char a[]){
     return count;
 }
 
+char tolower(char ch){
 
-char islower(char ch){
-    if(ch - )
+   if(ch>='a'  && ch <='z'){
+    return ch;
+   }else{
+    return ch-'A'+'a';
+   }
+
 }
 
 
@@ -20,7 +25,7 @@ bool checkPalindrome(char a[] , int len){
       int e = len-1;
 
       while(s<e){
-        if(a[s]!=a[e]){
+        if(  tolower(a[s]) !=  tolower(a[e]) ){
             return false;
         }
         s++;
@@ -28,10 +33,6 @@ bool checkPalindrome(char a[] , int len){
       }
       return true;
 }
-
-
-
-
 
 int main(){
     char a[100];
