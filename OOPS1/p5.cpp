@@ -4,32 +4,32 @@ using namespace std;
 
 int main(){
 
-//    student s1(100,200);
-//    cout<<"s1:"<<endl;
-//    s1.display();
+   student s1(100,200);
+   cout<<"s1:"<<endl;
+   s1.display();
 
-//   // copy constructor
-//   // creates a object taking/coping values from another object
+  // copy constructor
+  // creates a object taking/coping values from another object
 
-//    student s2(s1);
-//    cout<<"s2:"<<endl;
-//    s2.display();
+   student s2(s1);
+   cout<<"s2:"<<endl;
+   s2.display();
 
-//    student *s3 = new student(20 , 30);
-//    cout<<"s3:"<<endl;
-//    s3->display();
+   student *s3 = new student(20 , 30);
+   cout<<"s3:"<<endl;
+   s3->display();
 
-//    student s4(*s3);
-//    cout<<"s4:"<<endl;
-//    s4.display();
+   student s4(*s3);
+   cout<<"s4:"<<endl;
+   s4.display();
 
-//    student *s5 = new student(*s3);
-//    cout<<"s5:"<<endl;
-//    s5 -> display();
+   student *s5 = new student(*s3);
+   cout<<"s5:"<<endl;
+   s5 -> display();
 
-//    student *s6 = new student(s1);
-//    cout<<"s6:"<<endl;
-//    s6 -> display();
+   student *s6 = new student(s1);
+   cout<<"s6:"<<endl;
+   s6 -> display();
 
   cout<<" ------------------------------------"<<endl;
    //copy assignment operator copies all values of one object to another object
