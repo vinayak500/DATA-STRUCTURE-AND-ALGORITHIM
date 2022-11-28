@@ -1,6 +1,6 @@
 ## ARRAYS:
-arraysum
-largest element in array
+arraysum\
+largest element in array\
 linear search
 merge two sorted array
 reverse array
