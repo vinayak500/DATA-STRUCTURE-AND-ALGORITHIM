@@ -17,6 +17,6 @@ int main(){
    for(int i=0;i<n;i++){
     cout<<array[i] << " ";
    }
-
+// made some change using vim
 
 }
