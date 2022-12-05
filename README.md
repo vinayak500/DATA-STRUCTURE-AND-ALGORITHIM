@@ -13,6 +13,7 @@ pairsum\
 triplesum\
 sort01\
 
+
 ## CHARACTER ARRAYS:
 check palindrome\
 length of character array\
@@ -48,6 +49,8 @@ linear search (do recursively)\
 power of 2\
 print n natural number\
 removex\
+subset/subsequences of string \
+keypad problem \
 
 ## Linked list
 creating a linked list\
