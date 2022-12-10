@@ -12,6 +12,8 @@ intersecton of array\
 pairsum\
 triplesum\
 sort01\
+sort 012\
+plus one
 
 
 ## CHARACTER ARRAYS:
