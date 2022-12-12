@@ -57,3 +57,14 @@ keypad problem \
 ## Linked list
 creating a linked list\
 Inserting at ith position\
+Reverse the linked list\
+Reverse the linked list in K groups\
+find middle of linked list\
+check palindrome\ 
+add 2 numbers represented by linked list\
+remove duplicate numbers for the sorted linked list
+
+## Stacks
+Stacks using STL\
+Implement stack class using arrays\
+2 stacks in a single array
