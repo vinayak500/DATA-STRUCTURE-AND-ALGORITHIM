@@ -15,7 +15,6 @@ sort01\
 sort 012\
 plus one
 
-
 ## CHARACTER ARRAYS:
 check palindrome\
 length of character array\
@@ -67,4 +66,11 @@ remove duplicate numbers for the sorted linked list
 ## Stacks
 Stacks using STL\
 Implement stack class using arrays\
-2 stacks in a single array
+2 stacks in a single array\
+Reverse a string\
+valid paranthesis\
+insert-at-bottom\
+reverse-a-stack-using-recursion\
+sort-a-stack\
+check-redundant-bracket\
+next-smaller-element
