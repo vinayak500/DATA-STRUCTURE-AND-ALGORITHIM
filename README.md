@@ -74,3 +74,12 @@ reverse-a-stack-using-recursion\
 sort-a-stack\
 check-redundant-bracket\
 next-smaller-element
+
+
+## binary trees
+levelorder traversal\
+inorder traversal\
+preorder traversal\
+postorder traversal\
+construct binary tree from level order\
+count no of leaf nodes
