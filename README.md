@@ -52,6 +52,7 @@ print n natural number\
 removex\
 subset/subsequences of string \
 keypad problem \
+rat in a maze
 
 ## Linked list
 creating a linked list\
