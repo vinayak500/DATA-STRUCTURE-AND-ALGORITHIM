@@ -51,6 +51,7 @@ power of 2\
 print n natural number\
 removex\
 subset/subsequences of string \
+permutation of the string\
 keypad problem \
 rat in a maze
 
