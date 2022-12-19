@@ -75,7 +75,8 @@ insert-at-bottom\
 reverse-a-stack-using-recursion\
 sort-a-stack\
 check-redundant-bracket\
-next-smaller-element
+next-smaller-element\
+Largest area in Histogram
 
 
 ## binary trees
