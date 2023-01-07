@@ -63,7 +63,8 @@ Reverse the linked list in K groups\
 find middle of linked list\
 check palindrome\ 
 add 2 numbers represented by linked list\
-remove duplicate numbers for the sorted linked list
+remove duplicate numbers for the sorted linked list\
+delete node by address
 
 ## Stacks
 Stacks using STL\
