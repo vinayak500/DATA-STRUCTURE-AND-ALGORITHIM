@@ -13,7 +13,8 @@ pairsum\
 triplesum\
 sort01\
 sort 012\
-plus one
+plus one\
+Move zeroes to the end
 
 ## CHARACTER ARRAYS:
 check palindrome\
