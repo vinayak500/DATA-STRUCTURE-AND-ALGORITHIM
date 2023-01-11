@@ -113,5 +113,4 @@ int main(){
       print(tail);
          deleteNode(8,tail);
       print(tail);
-   
 }
