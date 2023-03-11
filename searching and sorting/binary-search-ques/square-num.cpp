@@ -7,6 +7,7 @@ double moreprecision(int n , int precision , int tempsol ){
     double ans = tempsol;
     double factor = 1;
 
+// percision indicates the number of decimals digits
     for(int i=0;i<precision;i++){
                  factor = factor/10;
                  //0.1
@@ -38,10 +39,10 @@ int squarenum(int n){
           int mid = (s+e)/2;
            int square = mid * mid;
 
-           if(square == n){
+          
+        if(square == n){
             return ans;
-           }
-           
+           }    
          if(square > n){
                 e = mid-1;
            } else if(square < n){

@@ -58,6 +58,9 @@ rat in a maze
 
 ## Linked list
 creating a linked list\
+sll implementation
+dll implementation
+cll implementation
 Inserting at ith position\
 Reverse the linked list\
 Reverse the linked list in K groups\
