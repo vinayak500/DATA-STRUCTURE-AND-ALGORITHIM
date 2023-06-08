@@ -37,6 +37,7 @@ bool checkPalindrome(char a[] , int len){
 int main(){
     char a[100];
     cin>>a;
+    
 
     int len = getlength(a);
 

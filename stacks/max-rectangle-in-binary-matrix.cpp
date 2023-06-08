@@ -1,12 +1,11 @@
 #include<iostream>
 #include<vector>
 #include<stack>
+#define MAX 1000 
 using namespace std;
-
-
-    
-    vector<int> nextSmallerElement(vector<int> arr, int n){
-         stack<int> s;
+   
+   vector<int> nextSmallerElement(int* arr, int n){
+    stack<int> s;
     s.push(-1);
     
     vector<int> ans(n);
@@ -24,7 +23,7 @@ using namespace std;
     }
 
 
-      vector<int> prevSmallerElement(vector<int> arr, int n){
+      vector<int> prevSmallerElement(int* arr, int n){
          stack<int> s;
     s.push(-1);
     
@@ -42,8 +41,8 @@ using namespace std;
     return ans;
     }
 
-    int largestRectangleArea(vector<int>& heights) {
-        int n = heights.size();
+    int largestRectangleArea(int* heights, int n) {
+
 
         vector<int> next(n);
         next = nextSmallerElement(heights,n);
@@ -55,7 +54,6 @@ using namespace std;
         for(int i=0;i<n;i++){
             int l = heights[i];
    
-   //if there is no smaller rectangle next  [2,2,2,2] example
                  if(next[i] == -1){
                      next[i] = n;
                  }
@@ -68,5 +66,25 @@ using namespace std;
 
         return area;
     }
-
-
+    
+    
+    int maxArea(int M[MAX][MAX], int n, int m) {
+        // Your code here
+        int area = largestRectangleArea(M[0],m);
+        
+        for(int i=1;i<n;i++){
+            for(int j=0;j<m;j++){
+                
+                if(M[i][j]!=0){
+                     M[i][j] = M[i][j] + M[i-1][j];
+                }else{
+                    M[i][j] = 0;
+                }
+               
+            }
+            
+            area = max(area , largestRectangleArea(M[i],m) );
+            
+        }
+        return area;
+    }
